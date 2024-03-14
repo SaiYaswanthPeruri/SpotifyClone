@@ -1,8 +1,32 @@
-.left{
-    background-color: red;
-width: 25vw;
+*{
+    margin: 0;
+    padding: 0;
 }
-.rigth{
-    width: 75vw;
+.left{
+    
+width: 23vw;
+padding: 7px;
+}
+.right{
+    width: 76vw;
 
+}
+.left ul li{
+    display: flex;
+    gap: 15px;
+    width: 25px;
+    list-style: none;
+    color: white;
+    padding-top: 18px;
+    
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.home{
+    
 }

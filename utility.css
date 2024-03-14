@@ -12,3 +12,19 @@
 .item-center{
      align-items: center;
 }
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 1px;
+}
+.p-1{
+    padding: 21px 0px 21px 23px;
+}
+.m-2{
+    margin-top: 7px;
+    
+}
