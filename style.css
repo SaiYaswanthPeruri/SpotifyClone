@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
 }
 .left{
     
@@ -13,11 +18,13 @@ padding: 7px;
 }
 .left ul li{
     display: flex;
+    align-items: center;
     gap: 15px;
     width: 25px;
     list-style: none;
     color: white;
     padding-top: 18px;
+    font-weight: bold;
     
 }
 .bg-black{
@@ -27,6 +34,30 @@ padding: 7px;
 .invert{
     filter: invert(1);
 }
-.home{
-    
+.library{
+    height: 69vh;
+    position: relative;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+}
+.heading img{
+    width: 25px;
+}
+.lbyfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 10px;
+    color: gray;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+}
+.library a{
+    color: gray;
+
 }
