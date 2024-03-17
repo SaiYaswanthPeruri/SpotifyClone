@@ -55,9 +55,57 @@ padding: 7px;
     color: gray;
     gap: 13px;
     position: absolute;
-    bottom: 0;
+    bottom: 23px;
 }
 .library a{
     color: gray;
 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > * {
+    padding: 8px ;
+}
+.right{
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-right: 9px;
+}
+.spotifyPlaylist{
+    padding: 16px;
+}
+.cardcontainers{
+    display: flex;
+    gap:17px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color:#161616;
+    position: relative;
+}
+.card > h2{
+    padding-top: 10px;
+}
+.card > p{
+    padding-top: 10px;
+}
+.spotifyPlaylist img{
+    width: 100%;
+    object-fit: contain;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.play{
+    position: absolute;
+    top: 158px;
+    right: 10px;
+    opacity: 0;
+    transition: all 1s ease-out;
 }
