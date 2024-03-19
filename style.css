@@ -11,10 +11,10 @@ body{
     
 width: 23vw;
 padding: 7px;
+
 }
 .right{
     width: 76vw;
-
 }
 .left ul li{
     display: flex;
@@ -65,9 +65,19 @@ padding: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #121212;
 }
 .header > * {
     padding: 8px ;
+}
+.circle {
+    width: 34px; 
+    height: 34px; 
+    background-color: black;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .right{
     margin-top: 8px;
@@ -82,6 +92,8 @@ padding: 7px;
     gap:17px;
     margin: 30px;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 88vh;
 }
 .card{
     width: 200px;
@@ -109,3 +121,4 @@ padding: 7px;
     opacity: 0;
     transition: all 1s ease-out;
 }
+
