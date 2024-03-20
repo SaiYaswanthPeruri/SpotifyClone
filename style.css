@@ -171,5 +171,13 @@ padding: 7px;
     align-items: center;
     gap: 27px;
 }
+.songlist ul{
+    /* padding: 5px 0px 0px 13px */
+}
+
+.songlist ul li{
+    list-style-type: decimal;
+    font-size: 14px;
+}
 
 
