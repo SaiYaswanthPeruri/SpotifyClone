@@ -79,24 +79,57 @@ padding: 7px;
     justify-content: center;
     align-items: center;
 }
+.nav{
+    margin-left: 14px;
+}
+.signbtn {
+    color: #a6a6a6;
+    background-color: #121212;
+    /* font-weight: 900; */
+    font-size: 16px;
+    margin-right:  28px;;
+    border-style: none;
+    cursor: pointer;
+}
+.loginbtn {
+    font-size: 17px;
+    padding: 13px 34px 13px 34px;
+    margin-right: 16px;
+    border-radius: 29px;
+    font-weight: 600;
+    cursor: pointer;
+    border-style: none;
+}
+.loginbtn:hover{
+    font-weight: bolder;
+    /* font-size: 1.001rem; */
+    background-color: rgb(227, 227, 227);
+    color: rgb(30, 30, 30);
+}
+.signbtn:hover{
+    color: white;
+    font-size: 1.1rem;
+}
 .right{
+    position: relative;
     margin-top: 8px;
     margin-bottom: 7px;
     margin-right: 9px;
+    padding: 7px 0px 21px 0;
 }
 .spotifyPlaylist{
     padding: 16px;
 }
-.cardcontainers{
+.cardcontainers {
     display: flex;
-    gap:17px;
-    margin: 30px;
+    gap: 26px;
+    margin: 15px;
     flex-wrap: wrap;
     overflow-y: scroll;
-    max-height: 88vh;
+    max-height: 70vh;
 }
 .card{
-    width: 200px;
+    width: 164px;
     padding: 10px;
     border-radius: 6px;
     background-color:#161616;
@@ -108,7 +141,7 @@ padding: 7px;
 .card > p{
     padding-top: 10px;
 }
-.spotifyPlaylist img{
+.spotifyPlaylist .card > img{
     width: 100%;
     object-fit: contain;
     border: 1px solid #161616;
@@ -121,4 +154,22 @@ padding: 7px;
     opacity: 0;
     transition: all 1s ease-out;
 }
+.playbar{
+    position:absolute;
+    bottom: 0;
+    background-color: lightblue;
+    width: 90%;
+    padding: 12px;
+
+}
+.songbuttons > img{
+    width: 30px;
+}
+.songbuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
 
