@@ -20,7 +20,16 @@ async function main(){
     console.log(songs);
     let songUL = document.querySelector(".songlist").getElementsByTagName("ul")[0];
     for (const song  of songs)  {
-        songUL.innerHTML = songUL.innerHTML + `<li> ${song.replaceAll("%20","")} </li>`;
+        songUL.innerHTML = songUL.innerHTML + `<div class="musicCard"> <li> <img class="invert" src="music.svg" alt="">
+                           <div class="musicInfo">
+                              <div>${song.replaceAll("%20","")} </div> 
+                              <div>yaswanth</div> 
+                           </div>
+                           <div class="playnow">
+                            <span>PlayNow</span>
+                                <img class="invert" src="play-circle.svg" alt="">
+                          </div>
+                          </li> </div>`;
     }
 
     var audio = new Audio(songs[0]);
